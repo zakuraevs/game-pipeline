@@ -14,19 +14,24 @@ const GameForm = ({games, setGames}) => {
     newGameRef.current.value = null
   }
 
-  const clearGameList = (event) => {
-    setGames([])
-  }  
+  const handleDelete = (id) => {
+    const oldGames =[...games]
+    const newGames = oldGames.filter(g => g.id !== id)
+    setGames(newGames)
+  }
 
 
   return (
     <>
       <input type="text" ref={newGameRef}/>
       <button onClick={handleGameSubmit}>Add</button>
-      <button onClick={clearGameList}>Add</button>
       <div>{games.length} games in the pipeline:</div>
       <ul>
-        {games.map(game => <li key={game.id}>{game.title} - {game.status}</li>)}
+        {games.map(game => 
+          <div key={game.id}>
+            <li>{game.title} - {game.status}<button onClick={() => handleDelete(game.id)}>Remove</button></li>
+          </div>
+        )}
       </ul>
       
     </>
