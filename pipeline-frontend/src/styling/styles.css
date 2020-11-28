@@ -1,4 +1,26 @@
 
 .test  {
-  background-color: red;
+  /*background-color: blue;*/
+}
+
+.mainHeader {
+  text-align: center;
+  color: blue;
+}
+
+.singleGame {
+  text-align: left;
+  font-size: 250%;
+  color: blue;
+}
+
+.gamesContainer {
+  margin: auto;
+  /*background-color: red;*/
+  width: 50%;
+}
+
+.singleGameImage {
+  width: 20px;
+  height: 20px;
 }
