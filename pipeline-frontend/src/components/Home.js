@@ -37,23 +37,20 @@ const Home = () => {
   const sorted_games = games.sort((a, b) => (a.rank < b.rank) ? -1 : 1)
 
   return (
-    <>
+    <main class="mainContainer">
       {/*<header className="mainHeader">
           Pipeline
       </header>*/}
-      <div class="mainContainer">
-        <div class="gamesContainer">
+        <section class="gamesContainer">
           {sorted_games.map(
             game => 
               <h2 key={game.id} class="singleGame">{game.name} </h2>
           )}
-        </div>
-        <div class="infoContainer">
-            <p>test</p>
-        </div>
-      </div>
-      
-    </>
+        </section>
+        <section class="infoContainer">
+            <p></p>
+        </section>      
+    </main>
   );
 }
 

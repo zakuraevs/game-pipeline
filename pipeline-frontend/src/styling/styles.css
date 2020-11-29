@@ -4,9 +4,14 @@
   src: local('helioscond'), url(../fonts/helioscond/HeliosCond.ttf) format('truetype');
 }
 
-.test  {
-  /*background-color: blue;*/
+main {
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template-columns: 35rem 35rem;
+  margin-top: 5rem;
+  /*grid-template-rows: 45rem;*/
 }
+
 
 .mainHeader {
   text-align: center;
@@ -33,21 +38,18 @@
 
 .mainContainer {
   background-color: white;
-  width: 100%;
 }
 
 .gamesContainer {
   margin-left: 8%;
   background-color: white;
-  width: 40%;
-  float: left;
 }
 
 .infoContainer {
   background-color: white;
-  width: 40%;
-  height: 100%;
-  float: left;
+  border-radius: 2rem;
+  border: 0.2rem dashed blue; 
+  margin: 3rem;
 }
 
 .singleGameImage {
