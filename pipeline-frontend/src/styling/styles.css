@@ -31,7 +31,7 @@ main {
 .singleGame:hover {
   text-align: left;
   font-size: 2.5rem;
-  color: rgb(255, 0, 212);
+  color: rgb(58, 110, 255);
   font-family: HeliosCond, Helvetica, sans-serif;
   margin: 15%;
 }
@@ -55,4 +55,10 @@ main {
 .singleGameImage {
   width: 20px;
   height: 20px;
+}
+
+.infoParagraph {
+  margin: 2rem;
+  font-family: HeliosCond, Helvetica, sans-serif;
+  font-size: 1.5rem;
 }
