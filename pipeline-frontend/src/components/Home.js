@@ -29,7 +29,11 @@ const Home = () => {
                       {name: "Elite Dangerous", rank: 3, id: 2, description: "Elite Dangerous is a space flight simulation game developed and published by Frontier Developments. Piloting a spaceship, the player explores a realistic 1:1 scale open-world representation of the Milky Way galaxy, with the gameplay being open-ended."},
                       {name: "Sea of Thieves", rank: 4, id: 3, description: "Sea of Thieves is a 2018 action-adventure game developed by Rare and published by Xbox Game Studios. The player assumes the role of a pirate who completes voyages from different trading companies in order to become the ultimate pirate legend."},
                       {name: "Among Us", rank: 5, id: 4, description: "Among Us is an online multiplayer social deduction game developed and published by American game studio Innersloth and released on June 15, 2018. The game takes place in a space-themed setting, in which players each take on one of two roles, most being Crewmates, and a predetermined number being Impostors."},
-                     ]
+                      {name: "Sea of Thieves", rank: 4, id: 3, description: "Sea of Thieves is a 2018 action-adventure game developed by Rare and published by Xbox Game Studios. The player assumes the role of a pirate who completes voyages from different trading companies in order to become the ultimate pirate legend."},
+                      {name: "Sea of Thieves", rank: 4, id: 3, description: "Sea of Thieves is a 2018 action-adventure game developed by Rare and published by Xbox Game Studios. The player assumes the role of a pirate who completes voyages from different trading companies in order to become the ultimate pirate legend."},
+                      {name: "Sea of Thieves", rank: 4, id: 3, description: "Sea of Thieves is a 2018 action-adventure game developed by Rare and published by Xbox Game Studios. The player assumes the role of a pirate who completes voyages from different trading companies in order to become the ultimate pirate legend."},
+                    ]
+
 
   const [games, setGames] = useState(hard_games)
   const [infoText, setInfoText] = useState('')
