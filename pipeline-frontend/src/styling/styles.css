@@ -66,23 +66,24 @@ main {
   margin: 3rem;
   display: grid;
   grid-gap: 1rem;
-  grid-template-rows: 55% 45%;
+  grid-template-rows: 50% 50%;
+
 }
 
-.singleGameImage {
-  width: 20px;
-  height: 20px;
-}
 
 .infoParagraph {
+  max-width: 80%;
+  max-height: 70%;
   margin: 3rem;
   margin-top: 4rem;
   font-family: HeliosCond, Helvetica, sans-serif;
   font-size: 1.25rem;
+  overflow: auto;
 }
 
 .infoImage {
-  width: 50%;
+  max-width: 80%;
+  max-height: 80%;
   display: block;
   margin-left: auto;
   margin-right: auto;
